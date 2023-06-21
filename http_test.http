@@ -26,3 +26,14 @@ Content-Type: application/json
   "product_class_name": "test product class",
   "product_class_code": "TEST"
 }
+
+### Update Product Class
+PATCH http://localhost:3000/productclasses/6.json
+Content-Type: application/json
+
+{
+  "product_class_name": "update test product class"
+}
+
+### Delete Product Class
+DELETE http://localhost:3000/productclasses/7.json
