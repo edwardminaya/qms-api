@@ -1,0 +1,3 @@
+json.id department.id
+json.department_name department.department_name
+json.department_manager department.department_manager
