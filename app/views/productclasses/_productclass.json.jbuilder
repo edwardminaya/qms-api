@@ -1,0 +1,3 @@
+json.id productclasses.id
+json.product_class_name productclasses.product_class_name
+json.product_class_code productclasses.product_class_code
