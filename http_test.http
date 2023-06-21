@@ -1,3 +1,4 @@
+### Create Department
 POST http://localhost:3000/departments.json
 Content-Type: application/json
 
@@ -5,3 +6,15 @@ Content-Type: application/json
   "department_name": "test department",
   "department_manager": "test manager"
 }
+
+### Update Department
+PATCH http://localhost:3000/departments/6.json
+Content-Type: application/json
+
+{
+  "department_name": "update name"
+}
+
+### Delete Department
+DELETE http://localhost:3000/departments/6.json
+

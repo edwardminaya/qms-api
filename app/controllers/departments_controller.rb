@@ -20,4 +20,20 @@ class DepartmentsController < ApplicationController
     @department.save
     render :show
   end
+
+  def update
+    # create happy sad path later
+    @department = Department.find_by(id: params[:id])
+    @department.update(
+      department_name: params[:department_name] || @department.department_name,
+      department_manager: params[:department_manager] || @department.department_manager,
+    )
+    render :show
+  end
+
+  def destroy
+    @department = Department.find_by(id: params[:id])
+    @department.destroy
+    render json: { message: "department removed from list" }
+  end
 end
