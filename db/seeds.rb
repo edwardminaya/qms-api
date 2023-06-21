@@ -23,3 +23,30 @@ department = Department.create(
   department_name: "Shipping",
   department_manager: "Jason Daniels",
 )
+
+# Product classes test sample
+
+product_class = Productclass.create(
+  product_class_name: "Steel/Stainless Bolts",
+  product_class_code: "BOLT",
+)
+
+product_class = Productclass.create(
+  product_class_name: "Bolt Washers",
+  product_class_code: "WASH",
+)
+
+product_class = Productclass.create(
+  product_class_name: "Electrical Wiring",
+  product_class_code: "WIRE",
+)
+
+product_class = Productclass.create(
+  product_class_name: "Steel/Stainless Clips",
+  product_class_code: "CLIP",
+)
+
+product_class = Productclass.create(
+  product_class_name: "PVC Pipes",
+  product_class_code: "PVCP",
+)

@@ -1,3 +1,3 @@
-json.id productclasses.id
-json.product_class_name productclasses.product_class_name
-json.product_class_code productclasses.product_class_code
+json.id productclass.id
+json.product_class_name productclass.product_class_name
+json.product_class_code productclass.product_class_code

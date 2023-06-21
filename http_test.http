@@ -18,3 +18,11 @@ Content-Type: application/json
 ### Delete Department
 DELETE http://localhost:3000/departments/6.json
 
+### Create Product Class
+POST http://localhost:3000/productclasses.json
+Content-Type: application/json
+
+{
+  "product_class_name": "test product class",
+  "product_class_code": "TEST"
+}
