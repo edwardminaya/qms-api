@@ -37,3 +37,15 @@ Content-Type: application/json
 
 ### Delete Product Class
 DELETE http://localhost:3000/productclasses/7.json
+
+
+### Create Product
+POST http://localhost:3000/products.json
+Content-Type: application/json
+
+{
+  "product_name": "test name",
+  "product_code": "test",
+  "product_description": "test description",
+  "productclass_id": 1
+}
