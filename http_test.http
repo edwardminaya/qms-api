@@ -49,3 +49,11 @@ Content-Type: application/json
   "product_description": "test description",
   "productclass_id": 1
 }
+
+### Update Product
+PATCH http://localhost:3000/products/6.json
+Content-Type: application/json
+
+{
+  "product_name": "update test name"
+}
