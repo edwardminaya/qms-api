@@ -57,26 +57,26 @@ product = Product.create(
   product_name: "1/4 STL Bolt",
   product_code: "C0218",
   product_description: "Hex 1/4 Inch Bolt Steel",
-  product_class_id: 1,
+  productclass_id: 1,
 )
 
 product = Product.create(
   product_name: "1/8 STL Bolt",
   product_code: "C0300",
   product_description: "Hex 1/8 Inch Bolt Steel",
-  product_class_id: 1,
+  productclass_id: 1,
 )
 
 product = Product.create(
   product_name: "1/4 STL Washer",
   product_code: "C1404",
   product_description: "1/4 Steel Washer",
-  product_class_id: 2,
+  productclass_id: 2,
 )
 
 product = Product.create(
   product_name: "1/8 STL Washer",
   product_code: "C1010",
   product_description: "1/8 Steel Washer",
-  product_class_id: 2,
+  productclass_id: 2,
 )
