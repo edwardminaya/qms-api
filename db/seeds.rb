@@ -120,3 +120,28 @@ product = Product.create(
   product_description: "1 Inch Diameter PVC White ",
   productclass_id: 5,
 )
+
+# Root cause test samples
+root_cause = Rootcause.create(
+  product_id: 1,
+  issue_description: "Defective thread",
+  severity: "High",
+  department_id: 1,
+  root_cause_analysis: "Tooling broke",
+)
+
+root_cause = Rootcause.create(
+  product_id: 3,
+  issue_description: "Cracked washer",
+  severity: "Medium",
+  department_id: 2,
+  root_cause_analysis: "Punch broke mid cycle",
+)
+
+root_cause = Rootcause.create(
+  product_id: 5,
+  issue_description: "Failed spark test",
+  severity: "Medium",
+  department_id: 3,
+  root_cause_analysis: "PVC not heated to correct temperature",
+)

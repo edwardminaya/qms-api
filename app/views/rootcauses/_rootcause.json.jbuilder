@@ -1,0 +1,6 @@
+json.id rootcause.id
+json.product_id rootcause.product_id
+json.issue_description rootcause.issue_description
+json.severity rootcause.severity
+json.department_id rootcause.department_id
+json.root_cause_analysis rootcause.root_cause_analysis
