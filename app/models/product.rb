@@ -1,4 +1,4 @@
 class Product < ApplicationRecord
   belongs_to :productclass
-  belongs_to :rootcause
+  has_many :rootcauses
 end

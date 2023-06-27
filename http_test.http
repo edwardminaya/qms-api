@@ -60,3 +60,26 @@ Content-Type: application/json
 
 ### Delete Product
 DELETE http://localhost:3000/products/6.json
+
+### Create Root Cause
+POST http://localhost:3000/rootcauses.json
+Content-Type: application/json
+
+{
+  "product_id": 1,
+  "issue_description": "test",
+  "severity": "High",
+  "department_id": 4,
+  "root_cause_analysis": "test"
+}
+
+### Update Root Cause
+PATCH http://localhost:3000/rootcauses/7.json
+Content-Type: application/json
+
+{
+  "issue_description": "update test"
+}
+
+### Delete Product
+DELETE http://localhost:3000/rootcauses/7.json

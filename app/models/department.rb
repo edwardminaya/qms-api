@@ -1,3 +1,3 @@
 class Department < ApplicationRecord
-  belongs_to :rootcause
+  has_many :rootcauses
 end

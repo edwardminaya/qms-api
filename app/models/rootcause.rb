@@ -1,4 +1,4 @@
 class Rootcause < ApplicationRecord
-  has_many :products
-  has_many :departments
+  belongs_to :product
+  belongs_to :department
 end
